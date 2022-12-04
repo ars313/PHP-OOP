@@ -1,18 +1,18 @@
 <?php
-class ProductHelper {
-    public static function cekValidSKU($sku) {
-        $checkCondition = preg_match('/^[A-Z]{3}[0-9]{3}$/', $sku);
-        if ($checkCondition == True) {
-            return "SkU is valid $sku";
-        } else {
-            return "SKU is not valid $sku";
-        }
-    }
-    public static function cekValidBrand($brand) {
-        $allBrand = ["Samsung", "LG", "Sony", "Philips", "Sharp", "Sanken"];
-        return in_array($brand, $allBrand);
-    }
-}
+//class ProductHelper {
+//    public static function cekValidSKU($sku) {
+//        $checkCondition = preg_match('/^[A-Z]{3}[0-9]{3}$/', $sku);
+//        if ($checkCondition == True) {
+//            return "SkU is valid $sku";
+//        } else {
+//            return "SKU is not valid $sku";
+//        }
+//    }
+//    public static function cekValidBrand($brand) {
+//        $allBrand = ["Samsung", "LG", "Sony", "Philips", "Sharp", "Sanken"];
+//        return in_array($brand, $allBrand);
+//    }
+//}
 
 //if (ProductHelper::cekValidSKU("AAA545")) {
 //    echo "SKU AAA545 valid <br/>";

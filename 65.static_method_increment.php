@@ -1,12 +1,14 @@
 <?php
-//class Product {
-//    private static $products = 0 ;
-//    public function __construct() {
-//        self::$products++;
-//        echo "Create class Product, total Product = " . self::$products . "<br />";
-//    }
-//}
-//
-//$productA = new Product();
-//$productB = new Product();
-//$productC = new Product();
+class Product {
+    private static $totalProduct = 0 ;
+
+    public function __construct() {
+        self::$totalProduct++ ;
+        echo "Total Product: " . self::$totalProduct . "<br />";
+    }
+}
+
+$product = new Product();
+$product01 = new Product();
+$product02 = new Product();
+$product03 = new Product();
