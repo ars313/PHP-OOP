@@ -15,10 +15,10 @@
 //        return $hasil;
 //    }
 //}
-
-$product = new Product();
-echo $product->brand;
-echo "<br>";
-echo $product->type;
-echo "<br>";
-echo $product->warna;
+//
+//$product = new Product();
+//echo $product->brand;
+//echo "<br>";
+//echo $product->type;
+//echo "<br>";
+//echo $product->warna;
