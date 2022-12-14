@@ -12,7 +12,7 @@
 //}
 //
 //
-//function viewSmartPhone($hp){
+//function viewSmartPhone(SmartPhone $hp){
 //    return "this brand smart phone : " . $hp->brand . "Type: " . $hp->type . "Price: ".number_format($hp->price
 //        ,2, ",",".");
 //}
